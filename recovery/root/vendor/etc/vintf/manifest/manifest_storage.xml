@@ -1,10 +1,11 @@
+<!--Transsion Top Secret-->
 <manifest version="1.0" type="device">
     <hal format="hidl">
-        <name>android.hardware.biometrics.fingerprint</name>
+        <name>vendor.transsion.hardware.transtorage.storage</name>
         <transport>hwbinder</transport>
-        <version>2.1</version>
+        <version>1.0</version>
         <interface>
-            <name>IBiometricsFingerprint</name>
+            <name>IStorage</name>
             <instance>default</instance>
         </interface>
     </hal>
